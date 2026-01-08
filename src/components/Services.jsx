@@ -1,5 +1,5 @@
 import React from 'react';
-import { Monitor, Wifi, Printer } from 'lucide-react';
+import { Monitor, Wifi, Printer, Code } from 'lucide-react';
 import './Services.css';
 import imgPc from '../assets/service-pc.png';
 import imgWifi from '../assets/service-wifi.png';
@@ -38,6 +38,17 @@ const Services = () => {
                 "Scanners y Multifuncionales",
                 "Conexión Smart TV y Streaming",
                 "Asistentes de voz y domótica básica"
+            ]
+        },
+        {
+            img: imgPc,
+            icon: <Code size={28} />,
+            title: "Desarrollo de Software",
+            items: [
+                "Sitios Web y E-commerce",
+                "Aplicaciones Móviles",
+                "Software a Medida",
+                "Integraciones y APIs"
             ]
         }
     ];
