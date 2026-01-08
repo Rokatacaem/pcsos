@@ -1,0 +1,57 @@
+:root {
+  /* Brand Colors */
+  --color-primary: #0056b3; /* Corporate Blue */
+  --color-primary-dark: #003d82;
+  --color-accent: #00bcd4; /* Cyan/Tech */
+  --color-bg-light: #f8f9fa;
+  --color-bg-white: #ffffff;
+  --color-text-main: #212529;
+  --color-text-muted: #6c757d;
+  --color-success: #28a745;
+
+  /* Typography */
+  --font-main: 'Inter', system-ui, -apple-system, sans-serif;
+  
+  /* Spacing */
+  --section-padding: 4rem 1rem;
+  --max-width: 1200px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-bg-white);
+  color: var(--color-text-main);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.section {
+  padding: var(--section-padding);
+}
