@@ -19,7 +19,7 @@ function App() {
       </main>
       <footer style={{ backgroundColor: 'var(--color-primary-dark)', color: 'white', padding: '2rem', textAlign: 'center' }}>
         <p>&copy; {new Date().getFullYear()} PCSOS.cl - Soporte Técnico Profesional</p>
-        <p style={{ fontSize: '0.9rem', opacity: 0.7, marginTop: '0.5rem' }}>Contacto: rokataca@gmail.com</p>
+        <p style={{ fontSize: '0.9rem', opacity: 0.7, marginTop: '0.5rem' }}>Contacto: pcsos.soporteinformatico@gmail.com</p>
       </footer>
     </div>
   );

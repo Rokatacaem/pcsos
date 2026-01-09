@@ -58,8 +58,7 @@ const ContactForm = () => {
 
         // Recipients
         const recipients = [
-            'rokataca@hotmail.com',
-            'oscarandres.v.q@gmail.com'
+            'pcsos.soporteinformatico@gmail.com'
         ];
         const mailToAddress = recipients.join(',');
 
